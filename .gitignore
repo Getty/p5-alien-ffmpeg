@@ -3,6 +3,8 @@ Alien-ffmpeg-*
 Build
 MYMETA.json
 MYMETA.yml
+META.json
+META.yml
 _alien/
 _build/
 _share/
