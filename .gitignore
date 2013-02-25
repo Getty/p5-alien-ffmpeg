@@ -1,2 +1,9 @@
 Alien-ffmpeg-*
 .build
+Build
+MYMETA.json
+MYMETA.yml
+_alien/
+_build/
+_share/
+blib/
