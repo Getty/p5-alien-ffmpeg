@@ -1,8 +1,13 @@
 #!/usr/bin/env perl
 use strict;
 use warnings;
-use Test::LoadAllModules;
+use Test::More;
 
-BEGIN {
-	all_uses_ok( search_path => 'Alien::ffmpeg' );
+for (qw(
+  Alien::ffmpeg
+)) {
+  use_ok($_);
 }
+
+done_testing;
+
